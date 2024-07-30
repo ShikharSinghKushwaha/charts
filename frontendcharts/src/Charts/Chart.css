@@ -1,0 +1,23 @@
+
+
+.main-chart-container{
+    display: flex;
+    justify-content: space-between;
+}
+.doughnut-container{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.chart-name{
+    text-align: center;
+    font-size: 2em;
+    
+}

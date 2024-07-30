@@ -1,0 +1,60 @@
+.flex-container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.landing-text{
+    width: 50%;
+}
+.landing-text h1{
+  font-size: 2.6em;
+  margin-bottom: 15px;
+}
+
+.landing-image{
+    max-width: 500px;
+    height: 400px;
+}
+.demo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.button{
+   text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+    font-family: 'Outfit';
+}
+
+.button:hover{
+    color: black;
+    background-color: wheat;
+}
+
+
+@media(max-width:800px){
+    .landing-text{
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .flex-container{
+        flex-direction: column;
+        max-height: auto;
+        margin-bottom: 40px;
+    }
+   
+}

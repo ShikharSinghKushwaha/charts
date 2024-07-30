@@ -1,0 +1,41 @@
+.input{
+    border: 2px solid red;
+    height: 100vh;
+  width: 30%;
+}
+
+.form-container{
+    width: 90%;
+    height: 100%;
+  padding: 10px;
+  border: 2px solid blue;
+  justify-content: center;
+}
+
+.input-field{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Outfit';
+    border:2px solid black;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.input-field:focus{
+    border-color: black;
+}
+
+.submit-btn{
+    padding: 10px;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Outfit';
+    border:2px solid transparent;
+  outline: none;
+  cursor: pointer;
+ 
+  margin-top: 20px;
+  border-radius: 6px;
+}

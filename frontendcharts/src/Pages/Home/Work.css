@@ -1,0 +1,85 @@
+.main-works-container{
+    height: 80vh;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.boxes-container{
+    height:100%;
+    width: 90%;
+    margin:auto;;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#works{
+    text-align: center;
+    font-size: 3.3em;
+    position: relative;
+    /* border: 2px solid red; */
+
+}
+
+#works:after{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    content: '';
+    height: 3px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.des-container{
+     max-width: 400px;
+     border: 2px solid transparent;
+     padding: 14px;
+     height: 200px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     border-radius: 6px;
+     transition: .4s;
+     cursor: pointer;
+}
+.des-container:hover{
+    border-color: blue;
+    box-shadow: 10px 10px 5px rgb(130, 219, 249);
+
+}
+.des-text{
+    font-size: 22px;
+    margin-top: 17px;
+    font-family: 'Outfit';
+}
+.data{
+    color: dodgerblue;
+    /* margin-bottom: 10px; */
+}
+.customize{
+    color: tomato;
+}
+.download{
+    color: orange;
+}
+.icon{
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:800px){
+
+    .boxes-container{
+        max-height: auto;
+        margin-top: 40px;
+    }
+    .des-container{
+ margin-top: 20px;
+    }
+   
+}
