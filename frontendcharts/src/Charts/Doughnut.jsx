@@ -91,9 +91,10 @@ function DoughnutChart() {
           }
 
          
-            <button onClick={downloadImage}>Donwloa</button>
+<button onClick={downloadImage} className="button">Donwload</button>
         
         </div>
+
         <div className="input">
           <form onSubmit={onFormSubmit} className="form-container">
             <input
@@ -114,13 +115,13 @@ function DoughnutChart() {
               className="input-field"
             />
 
-            <input
+            {/* <input
               type="text"
               name="value"
               placeholder="Your pie values"
               //   onChange={(e) => setValue(e.target.value)}
               className="input-field"
-            />
+            /> */}
 
             <button type="submit" className="submit-btn">
               Submit
@@ -128,7 +129,7 @@ function DoughnutChart() {
           </form>
         </div>
       </div>
-      <SpreadSheet />
+
     </div>
   );
 }

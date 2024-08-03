@@ -1,5 +1,5 @@
 .input{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100vh;
   width: 30%;
 }
@@ -8,7 +8,7 @@
     width: 90%;
     height: 100%;
   padding: 10px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   justify-content: center;
 }
 
